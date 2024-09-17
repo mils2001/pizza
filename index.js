@@ -12,3 +12,11 @@ const y =400;
             console,log('no more pizza available');
             break;
     }
+
+    const music = ['1992 meek mill','Drake laugh now cry later','kendrick goat',];
+     music.sort((a, b) => a.localeCompare(b));
+
+     music.forEach((song,index) => {
+         console.log(`${index+1}. ${song}`);
+     });
+     console.log(music);
