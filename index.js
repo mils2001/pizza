@@ -20,3 +20,8 @@ const y =400;
          console.log(`${index+1}. ${song}`);
      });
      console.log(music);
+
+     const people = ['hamza','thabit','james','mapulomba','wajenjejenje'];
+          
+        const names= people.sort((a, b) => b.localeCompare(a));
+         console.log('names');
